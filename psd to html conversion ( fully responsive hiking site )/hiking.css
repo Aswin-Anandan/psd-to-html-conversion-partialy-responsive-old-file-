@@ -1,0 +1,584 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.navbar{
+	display: flex;
+	align-items: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	margin-left: 25px;
+
+}
+.links{
+margin-left: 700px;
+}
+.searchbar{
+
+	
+}
+.searchbar input{
+	margin-left: 20px;
+	width: 160px;
+	height: 30px;
+	background: grey;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	border: none;
+	
+}
+.section1{
+	background-image: url("images/first pic.png");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 700px;
+
+}
+.innerelement1{
+	width: 700px;
+	height: 380px;
+	position: relative;
+	top: 250px;
+	margin-left: 30px;
+	overflow: hidden;
+}
+.innerelement1 h1{
+	font-size: 78px;
+	color: #FB9F0A;
+	text-shadow: 2px 1px black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.innerelement1 h3{
+	font-family:"arial";
+
+}
+.innerelement1 button{
+	width:150px;
+	height: 30px;
+	border: none;
+	border-radius: 50px;
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+	
+}
+.innerelement1 p{
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 500;
+	
+}
+.section2{
+		width:400px;
+	height: 200px;
+	text-align: center;
+	overflow: hidden;
+	margin-left: 500px;
+}
+.section2 h1{
+	position: relative;
+	top:40px;
+	color:#FB9F0A; 
+	text-shadow: 1px 1px black;
+	
+}
+.section2 p{
+	margin-top: 45px;
+}
+.album{
+	display: grid;
+	grid-template-columns: 250px 250px 250px;
+	grid-template-rows: 200px 150px 200px;
+	grid-column-gap: 30px;
+	text-align: center;
+	
+	
+	
+}
+.album div{
+ position: relative;
+	top:100px;
+	left:260px;
+}
+.img1{
+	background-image: url("images/sec 2 image1.png");
+	background-position: center;
+	background-size: cover;
+}
+.img2{
+	background-image: url("images/sec2 img 2.png");
+	background-position: center;
+	background-size: cover;
+}
+.img3{
+	background-image: url("images/sec2 image 3.png");
+	background-position: center;
+	background-size: cover;
+}
+.imgdetails{
+	background: grey;
+	text-align: center;
+}
+.album button{
+	background: grey;
+	width:100px;
+	height: 30px;
+	border: none ;
+	border-radius: 50px;
+	color:white;
+	font-weight: 500;
+	position:relative;
+	top:150px;
+	left:620px;
+}
+.section3{
+	width: 100%;
+	height:800px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 400px 400px;
+	
+}
+.part1{
+	background-image: url("images/sec2 img 2.png");
+		background-position: center;
+	background-size: cover;
+	
+}
+.part4{
+	background-image: url("images/sec2 image 3.png");
+		background-position: center;
+	background-size: cover;
+	
+}
+.part2{
+	background: grey;
+	color: white;
+	overflow: hidden;
+	
+}
+.part3{
+	background-color: #EF925A;
+	color: white;
+	overflow: hidden;
+}
+.part2 h1 {
+	position: relative;
+	top: 50px;
+	left:30px;
+}
+.part2 h3 {
+	position: relative;
+	margin-top: 25px;
+	top: 50px;
+	left:30px;
+}
+.part2 button {
+	position: relative;
+	margin-top: 25px;
+	top: 50px;
+	left:30px;
+	background-color: #FB450A;
+	width:100px;
+	height: 30px;
+	border: none ;
+	border-radius: 50px;
+	color:white;
+	font-weight: 500;
+}
+
+.part3 h1 {
+	position: relative;
+	top: 50px;
+	left:30px;
+}
+.part3 h3 {
+	position: relative;
+	margin-top: 25px;
+	top: 50px;
+	left:30px;
+}
+.part3 button  {
+	position: relative;
+	margin-top: 25px;
+	top: 50px;
+	left:30px;
+    background-color: #FB450A;
+	width:100px;
+	height: 30px;
+	border: none ;
+	border-radius: 50px;
+	color:white;
+	font-weight: 500;
+}
+.section4{
+	margin-top: 100px;
+	text-align: center;
+	background-image: url("images/sec 4.png");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+	
+}
+.section4 h1{
+	position: relative;
+	font-size: 48px;
+	top: 200px;
+	color: white;
+	
+}
+.section4 p{
+	position: relative;
+	top: 200px;
+	font-size: 28px;
+	color: white;
+	margin-top: 50px;
+	
+}
+.section5{
+	background-image: url("images/sec5.png");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	margin-top: 100px;
+	text-align: right;
+}
+.itext{
+	position: relative;
+	top: 350px;
+	margin-right: 50px;
+}
+.itext p{
+	font-size: 68px;
+	color: #F37B04;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+}
+.itext h1{
+	font-size: 68px;
+	color:#262222;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-weight: 800;
+	text-shadow: 1px 1px black;
+}
+.section6{
+	display: grid;
+	grid-template-columns: 350px 350px 350px;
+	grid-template-rows: 250px ;
+	margin-top: 70px;
+	margin-left: 100px;
+	grid-column-gap: 40px;
+}
+.section6 h2{
+	color:#F37B04;
+	text-shadow: 1px 1px black;
+	
+}
+
+.section7{
+	text-align: center;
+}
+.section8{
+	margin-top: 100px;
+	width: 100%;
+	height: 800px;
+	background-image: url("images/sec 8.png");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+.section8 p{
+	font-size: 58px;
+	position: relative;
+	top: 250px;
+	color: white;
+}
+.section8 h2{
+	
+	position: relative;
+	top: 250px;
+	margin-top: 25px;
+}
+
+::placeholder{
+	font-size: 18px;
+}
+.round{
+	width:350px;
+	height: 50px;
+	position: relative;
+	top: 300px;
+	left:580px;
+	
+}
+input{
+	background: white;
+	width:300px;
+	height: 45px;
+	border-radius: 50px;
+}
+.searchinput{
+	background: #272323;
+	width: 150px;
+	height: 46px;
+	border-radius: 50px;
+	position: relative;
+	top: 47px;
+	margin-left: 200px;
+	cursor: pointer;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+}
+.footer{
+	background-color:black;
+	width:100%;
+	height: 300px;
+	color:white;
+}
+.footer p{
+	position: relative;
+	top:100px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1300px){
+	.links{
+margin-left: 600px;
+}	
+	.section6{
+		grid-template-columns: 320px 320px 320px;
+	}
+	.round{
+		left:480px;
+	}
+}
+
+
+@media (max-width:1200px){
+	.links{
+margin-left: 500px;
+}	
+	.section6{
+		grid-template-columns: 300px 300px 300px;
+	}
+	.round{
+		left:380px;
+	}
+}
+
+
+
+@media (max-width:1100px){
+	.links{
+margin-left: 400px;
+}
+	.album div{
+
+	left:160px;
+}
+	.album button{
+		left:420px;
+	}
+	.section6{
+		grid-template-columns: 260px 260px 260px;
+	}
+	.round{
+		left:280px;
+	}
+}
+
+
+
+
+@media (max-width:1000px){
+	.links{
+margin-left: 300px;
+}	
+	.album div{
+
+	left:60px;
+}
+	.section2{
+	
+	margin-left: 400px;
+}.album button{
+		left:220px;
+	}
+	.section6{
+		grid-template-columns: 200px 200px 200px;
+	}
+	.round{
+		left:180px;
+	}
+}
+
+
+
+
+
+@media (max-width:900px){
+	.links{
+margin-left: 120px;
+}
+	.album div{
+
+	left:0px;
+		overflow: hidden;
+}
+	.section2{
+	
+	margin-left: 300px;
+}
+	.album button{
+		left:320px;
+	}
+	.section6{
+		grid-template-columns: 160px 160px 160px;
+	}
+	.round{
+		left:80px;
+	}
+}
+
+
+
+
+@media (max-width:800px){
+	.links{
+margin-left: 50px;
+}
+	.section2{
+	
+	margin-left: 200px;
+}
+	.album{
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	grid-template-rows: 200px 150px 200px;
+	grid-column-gap: 30px;
+	
+	
+}
+	.album button{
+		left:220px;
+	}
+}
+
+@media (max-width:700px){
+	.links{
+margin-left: 10px;
+}	
+	.section2{
+	
+	margin-left: 100px;
+}
+		.album{
+	display: grid;
+	grid-template-columns: 150px 150px 150px;
+	grid-template-rows: 150px 150px 200px;
+	grid-column-gap: 30px;
+	
+	
+}.album button{
+		left:120px;
+	}
+	.section6{
+		grid-template-columns: 140px 140px 140px;
+	}
+}
+
+
+
+
+
+@media (max-width:600px){
+	.links{
+display: none;
+}
+	.innerelement1{
+		width:370px
+	}
+	.section2{
+	
+	margin-left: 0px;
+}
+		.album{
+	display: grid;
+	grid-template-columns: 140px 140px 140px;
+	grid-template-rows: 150px 150px 200px;
+	grid-column-gap: 10px;
+			
+	
+	
+}
+	.album button{
+		left:120px;
+	}
+	.section6{
+		grid-template-columns: 100px 100px 100px;
+		overflow: hidden;
+	}
+}
+
+
+@media (max-width:500px){
+	.innerelement1{
+		width:370px
+	}
+		.section2{
+	
+	width:350px;
+}
+	.album{
+		display: grid;
+	grid-template-columns: 130px 130px 130px;
+	grid-template-rows: 150px 150px 200px;
+	grid-column-gap: 5px;
+		
+	}
+	.album button{
+		display: none;
+	}
+	
+}
+@media (max-width:440px){
+	.innerelement1{
+		display:none;
+	}
+		.section2{
+	
+	width: 200px;
+}
+	.round{
+		display: none;
+	}
+	
+}
+
